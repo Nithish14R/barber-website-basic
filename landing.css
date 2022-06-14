@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+body{
+    background-color: #000000 !important;
+    min-height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+nav{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color: #191c24 !important;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.navbar-brand{
+    display: flex;
+    align-items: center;
+    margin-left: 2vh;
+    font-family: 'Oswald', sans-serif;
+    color: #eb1616 !important;
+}
+.fa-cut{
+    font-size: 2rem;
+    
+}
+li{
+    padding: 10px 4px;
+    margin-right: 3px;
+}
+li .nav-link{
+    color: #6c7293 !important;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+li .nav-link:hover{
+    color: #eb1616 !important;
+}
+.appoint{
+    background-color: #eb1616 !important;
+   
+}
+.img-carousal{
+    background-image: url('banner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*opacity: 0.5;*/
+    width: 100%;
+    min-height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    text-align: start;
+    
+   }
+.car-add{
+  display: flex;
+  align-items: center;
+}
+.banner-h1{
+    font-size: 50px;
+    font-family: 'Oswald',sans-serif;
+    font-weight: 900;
+    
+
+}
+.banner-para{
+    font-size: 20px;
+}
+.about-us{
+    position: relative;
+}
+.about{
+    position: relative;
+    margin-bottom: 50px;
+}
+.img-abt{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    position: relative;
+}
+.abt-image{
+    width: 400px;
+    height: 450px;
+}
+.img-abt .details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -30px;
+    left: 150px;
+    
+}
+.img-abt .abt-co{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   font-size: 32px;
+   color: gray;
+   font-weight: 700;
+   font-family: 'Oswald',sans-serif;
+   background-color:#191c24; 
+   padding: 40px 10px;
+   text-transform: uppercase;
+   text-align: center;
+}
+.pa-abt{
+    color: #eb1616 !important;
+
+}
+.pa-abt span{
+    color: white;
+}
+.div-para-abt{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    flex-direction: column;
+    color: white;
+    padding: 40px 0;
+}
+.abt-para{
+    background:cyan;
+    height: 100%;
+    font-family: sans-serif;
+    background-color: #191c24;
+    color: #eb1616;
+    text-transform: capitalize;
+    padding: 0px 10px;
+    text-align: center;
+    color: white;
+}
+.years{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 30px 10px;
+    gap: 40px;
+}
+.para-h1-abt{
+    font-family: 'Oswald',sans-serif;
+}
+
+.abt-content{
+    color: #6c7293;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.cont-abt-p{
+    color: #6c7293;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.service{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.serv-h1{
+    text-align: center;
+    color: #fff;
+    padding:10px;
+    font-family: 'oswald',sans-serif;
+}
+.service-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: #fff;
+}
+.serv-two{
+    background-color:#191c24;
+    padding:20px 20px ;    
+    margin: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.ser{
+    display: inline;
+    text-align: center;
+    padding: 10px 10px;
+    color: red;
+}
+.cost{
+    color: red;
+}
+.hair-cont{
+    color: #6c7293;
+    font-family: sans-serif;
+}
+.iimg{
+    width: 50px;
+    height: 50px;
+
+}
+.spani{
+    background-color:none;
+    margin: 20px;
+}
+.price-div{
+    background-color: #191c24;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.plan{
+    color: red;
+    background-color:black;
+    padding: 5px 25px;
+    font-family: sans-serif;
+    margin: 20px 10px;
+}
+.PRI-H1{
+    color: white;
+    font-family: 'Oswald',sans-serif;
+}
+.pri-li li{
+    color: white;
+    font-family: 'Oswald',sans-serif;
+    list-style: none;
+}
+.pri-li .pareent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    width: 100%;
+}
+.pri-li .pareent  span{
+    color: red;
+}
+hr{
+    color: white;
+    background-color:white;
+
+}
